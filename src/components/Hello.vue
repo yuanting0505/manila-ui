@@ -17,6 +17,18 @@
       <li><a href="http://vue-loader.vuejs.org/" target="_blank">vue-loader</a></li>
       <li><a href="https://github.com/vuejs/awesome-vue" target="_blank">awesome-vue</a></li>
     </ul>
+    <h2>Thanks for your contribution!</h2>
+    <ul>
+      <li><a href="http://www.chriest.studio/" target="_blank" title="Chriest Yu">
+        <img src="../assets/Chriest.jpeg">
+      </a></li>
+      <li><a href="http://jasmineyuan.com" target="_blank" title="Jasmine Yuan">
+        <img src="../assets/ot.jpeg">
+      </a></li>
+      <li><a href="http://ifyouseewendy.com" target="_blank" title="Di Wen">
+        <img src="../assets/wen.jpeg">
+      </a></li>
+    </ul>
   </div>
 </template>
 
@@ -25,7 +37,7 @@ export default {
   name: 'hello',
   data() {
     return {
-      msg: 'Welcome to Your Vue.js App',
+      msg: 'Welcome to Manila App',
     };
   },
 };
@@ -45,6 +57,11 @@ ul {
 li {
   display: inline-block;
   margin: 0 10px;
+}
+
+li img {
+  display: inline-block;
+  width: 150px;
 }
 
 a {

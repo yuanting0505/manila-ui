@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+    <img id="logo" src="./assets/logo.png">
     <hello></hello>
   </div>
 </template>
@@ -24,5 +24,11 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+
+#logo {
+  display: block;
+  width: 450px;
+  margin: 50px auto;
 }
 </style>
