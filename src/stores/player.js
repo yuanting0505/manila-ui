@@ -10,16 +10,16 @@ export default {
     roster: [],
   },
   mutations: {
-    [mutations.ADD_PLAYER] (state, { name, stocks }) {
+    [mutations.ADD_PLAYER](state, { name, stocks }) {
       state.roster.push({
         name,
-        stocks: {...stocks},
-        ..defaultPlayer,
+        stocks: { ...stocks },
+        ...defaultPlayer,
       });
-    }
+    },
   },
   actions: {},
   getters: {
-    boatman: (state) => (state.roster.filter(p => p.isBoatman)),
+    boatman: (state) => { state.roster.filter(p => p.isBoatman); },
   },
 };
