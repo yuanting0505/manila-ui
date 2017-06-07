@@ -1,4 +1,4 @@
-import { player as mutations } from './mutations';
+import mutations from './mutations';
 
 const defaultPlayer = {
   gold: 30,
